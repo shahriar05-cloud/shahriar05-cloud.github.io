@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Official personal portfolio of Shahriar Alam, Student.">
+<meta name="author" content="Shahriar Alam">
+<title>Shahriar Alam | Student</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0b1220;
+  color: white;
+  line-height: 1.7;
+}
+
+header {
+  padding: 22px 8%;
+  background: #121d30;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 21px;
+  font-weight: bold;
+  color: #70d6c2;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.hero {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 60px 8%;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: clamp(35px, 6vw, 55px);
+  margin: 15px 0;
+}
+
+.hero h1 span {
+  color: #70d6c2;
+}
+
+.hero p {
+  color: #c4cfdd;
+  margin-bottom: 20px;
+}
+
+.role {
+  font-size: 22px;
+  color: #70d6c2 !important;
+}
+
+.profile {
+  width: 280px;
+  height: 350px;
+  object-fit: cover;
+  object-position: center 25%;
+  border-radius: 22px;
+  border: 3px solid #70d6c2;
+  box-shadow: 0 10px 40px #0008;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #70d6c2;
+  color: #071b19;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+section {
+  padding: 55px 8%;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 30px;
+  color: #70d6c2;
+  margin-bottom: 20px;
+}
+
+.card {
+  background: #121d30;
+  padding: 30px;
+  border-radius: 18px;
+  max-width: 750px;
+  margin: auto;
+  border: 1px solid #293c52;
+}
+
+.card p {
+  color: #c4cfdd;
+}
+
+footer {
+  background: #121d30;
+  text-align: center;
+  padding: 25px;
+  color: #aab6c8;
+}
+
+a.email {
+  color: #70d6c2;
+  overflow-wrap: anywhere;
+}
+
+@media(max-width: 600px) {
+  header {
+    padding: 18px;
+  }
+  .hero {
+    text-align: center;
+    gap: 30px;
+  }
+  .profile {
+    width: 230px;
+    height: 290px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">SHAHRIAR ALAM</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<div class="hero" id="home">
+
+  <div class="hero-text">
+    <p>WELCOME TO MY WEBSITE</p>
+
+    <h1>Hi, I'm <span>Shahriar Alam</span></h1>
+
+    <p class="role">Student</p>
+
+    <p>
+      Welcome to my personal website.
+      I love learning new things, exploring technology
+      and improving my knowledge.
+    </p>
+
+    <a href="#about" class="btn">Explore More</a>
+  </div>
+
+  <img
+    src="profile-photo.png"
+    alt="Shahriar Alam"
+    class="profile"
+  >
+
+</div>
+
+<section id="about">
+  <h2>About Me</h2>
+
+  <div class="card">
+    <p>
+      Hello! I'm Shahriar Alam.
+      I am a student who is passionate about learning,
+      technology and personal development.
+      I believe in learning something new every day
+      and building a better future.
+    </p>
+  </div>
+</section>
+
+<section id="skills">
+  <h2>My Interests</h2>
+
+  <div class="card">
+    <p>Learning</p>
+    <p>Technology</p>
+    <p>Personal Development</p>
+    <p>Creative Thinking</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+
+  <div class="card">
+    <p>Email Address:</p>
+    <p>
+      <a class="email"
+      href="mailto:shahriaralam137@gmail.com">
+      shahriaralam137@gmail.com
+      </a>
+    </p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Shahriar Alam. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
